@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Collection Bébé</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- Header (identique à index.html) -->
+<header>
+  <div class="top-bar">
+    <div class="logo">BÉBÉ BOUTIQUE</div>
+    <input type="text" class="search-bar" placeholder="Rechercher..." />
+    <div class="header-icons">
+      <i class="fas fa-user"></i>
+      <i class="fas fa-heart"></i>
+      <div class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+      </div>
+    </div>
+  </div>
+
+  <nav class="category-nav">
+    <ul>
+      <li><a href="#">Naissance</a></li>
+      <li><a href="#">Bébé Fille</a></li>
+      <li><a href="#">Bébé Garçon</a></li>
+      <li><a href="#">Fille</a></li>
+      <li><a href="#">Garçon</a></li>
+      <li><a href="#">Femme</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><button class="btn-outline">Trousseau Naissance</button></li>
+      <li><button class="btn-red">Nouvelle Collection</button></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="info-banner">-10% sur les paiements par carte bancaire</div>
+
+<!-- Collection Page -->
+<main class="collection-page">
+  <aside class="filters">
+    <h3>Prix</h3>
+    <input type="range" min="50" max="320" />
+    <p>50 - 320 TND</p>
+    <h3>Couleurs</h3>
+    <div class="colors">
+      <span class="color-swatch" style="background: #fff;"></span>
+      <span class="color-swatch" style="background: #000;"></span>
+      <span class="color-swatch" style="background: #ff0000;"></span>
+      <span class="color-swatch" style="background: #0044ff;"></span>
+      <!-- Ajoute d'autres couleurs -->
+    </div>
+  </aside>
+
+  <section class="products-grid">
+    <h2>Collection Aïd</h2>
+    <div class="grid">
+      <!-- Produits (exemples) -->
+      <div class="product-box">
+        <img src="https://source.unsplash.com/300x400/?baby-clothes" alt="Blouse Bébé">
+        <h4>Blouse Bébé en Coton</h4>
+        <p>195,00 TND</p>
+      </div>
+      <div class="product-box">
+        <img src="https://source.unsplash.com/300x400/?baby-skirt" alt="Jupe Bébé">
+        <h4>Jupe Bébé Cœurs</h4>
+        <p>210,00 TND</p>
+      </div>
+      <div class="product-box">
+        <img src="https://source.unsplash.com/300x400/?baby-boy" alt="Chemise Garçon">
+        <h4>Chemise Manches Longues</h4>
+        <p>185,00 TND</p>
+      </div>
+      <div class="product-box">
+        <img src="https://source.unsplash.com/300x400/?baby-pants" alt="Pantalon Enfant">
+        <h4>Pantalon Chino Garçon</h4>
+        <p>195,00 TND</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
